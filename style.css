@@ -128,5 +128,47 @@ hr {
 }
 
 .about-text p {
-    20px
+    font-size: 18px;
+}
+
+.product {
+    background-color: rgb(14, 14, 14);
+    margin-top: 50px;
+}
+
+.product h1 {
+    color: white;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 0% 10%;
+}
+
+.product-card {
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(163, 163, 163, 0.5);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.product-card input {
+    width: 98%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(32, 32, 32);
+    background-color: white;
+    font-size: 15px;
+    margin-bottom: 3px;
+
 }
