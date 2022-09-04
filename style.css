@@ -6,11 +6,11 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Noto Serif', serif;
     font-family: 'Rubik Dirt', cursive; */
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
     /* font-family: 'Bitter', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Noto Serif', serif; */
-    font-family: 'Patua One', cursive;
+    /* font-family: 'Patua One', cursive; */
     /* font-family: 'Rubik Dirt', cursive;
     font-family: 'Yanone Kaffeesatz', sans-serif; */
 }
@@ -36,7 +36,7 @@ html {
 }
 
 .header {
-    background-image: url(bg-header.jpg);
+    background-image: url(bg-header2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,21 +54,21 @@ hr {
     grid-template-columns: auto auto;
     padding: 1% 10%;
     height: 70px;
-    font-size: 40px;
     color: #333;
     background-color: transparent;
 
 }
 
 .nav h3 {
-    font-weight: 500;
+    font-weight: 200;
+    font-size: 35px;
 }
 
 .nav ul {
     display: grid;
     grid-template-columns: auto auto auto auto;
     list-style: none;
-    font-size: 30px;
+    font-size: 20px;
     justify-content: end;
     column-gap: 22px;
 }
@@ -80,17 +80,17 @@ hr {
 
 .slogan {
     margin: 0 auto;
-    padding: 20% 10%;
+    padding: 200px 10%;
     color: #333;
     letter-spacing: 2px;
     line-height: 50px;
-    font-family: 'Patua One', cursive;
+
 }
 
 .slogan h1 {
     font-size: 50px;
     text-shadow: 1px 1px 1px white;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .slogan h2 {
@@ -99,7 +99,34 @@ hr {
 }
 
 .slogan span {
-    font-size: 60px;
+    font-size: 50px;
     color: DodgerBlue;
     text-shadow: 1px 1px 1px black;
+}
+
+.about h1 {
+    text-align: center;
+    padding: 50px;
+
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    padding: 0% 10%;
+
+}
+
+.about-content img {
+    width: 500px;
+}
+
+.about-text h3 {
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.about-text p {
+    20px
 }
