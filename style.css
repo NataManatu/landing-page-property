@@ -232,3 +232,45 @@ hr {
     color: DodgerBlue;
     border-color: black;
 }
+
+footer {
+    background-color: #333;
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+}
+
+.footer-grid {
+    margin: 0 10% 0 20%;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer-grid ul {
+    list-style: none;
+    color: white;
+}
+
+.footer-grid li h4, .footer-list-logo h4 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.footer-grid li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-grid li a:hover {
+    color: DodgerBlue;
+}
+
+.footer-grid .footer-list-logo ul li {
+    display: inline-block;
+}
+
+.footer-grid .footer-list-logo ul li a i {
+    margin-right: 5px;
+    font-size: 25px;
+}
