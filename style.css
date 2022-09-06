@@ -2,17 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* font-family: 'Bitter', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Noto Serif', serif;
-    font-family: 'Rubik Dirt', cursive; */
-    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
-    /* font-family: 'Bitter', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Noto Serif', serif; */
-    /* font-family: 'Patua One', cursive; */
-    /* font-family: 'Rubik Dirt', cursive;
-    font-family: 'Yanone Kaffeesatz', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 html {
@@ -44,11 +35,6 @@ html {
 
 }
 
-hr {
-    margin-top: 500px;
-}
-
-
 .nav {
     display: grid;
     grid-template-columns: auto auto;
@@ -56,11 +42,10 @@ hr {
     height: 70px;
     color: #333;
     background-color: transparent;
-
 }
 
 .nav h3 {
-    font-weight: 200;
+    font-weight: 500;
     font-size: 35px;
 }
 
@@ -129,6 +114,8 @@ hr {
 
 .about-text p {
     font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .product {
@@ -235,42 +222,46 @@ hr {
 
 footer {
     background-color: #333;
-    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
 }
 
-.footer-grid {
+.footer {
     margin: 0 10% 0 20%;
     padding: 50px 0;
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
-.footer-grid ul {
+.footer ul {
     list-style: none;
     color: white;
 }
 
-.footer-grid li h4, .footer-list-logo h4 {
+.footer li h4,
+.footer-list-logo h4 {
     color: white;
     font-size: 30px;
     padding-bottom: 10px;
+    font-weight: 400;
 }
 
-.footer-grid li a {
+.footer li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-.footer-grid li a:hover {
+.footer li a:hover {
     color: DodgerBlue;
 }
 
-.footer-grid .footer-list-logo ul li {
-    display: inline-block;
+.footer-list-logo img {
+    width: 20px;
+    height: 20px;
+   
+   
 }
-
-.footer-grid .footer-list-logo ul li a i {
-    margin-right: 5px;
-    font-size: 25px;
+.footer-list-logo ul {
+   display:inline-flex;
+  
+   
 }
